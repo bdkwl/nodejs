@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Express实例 上传文件</title>
+</head>
+<body>
+	<img src="/images/logo.png" alt="" style="width:100px; height:100px;">	
+	
+	<form action="/file_upload" method="post" enctype="multipart/form-data">
+		<div>
+			<input type="file" name="image" size="50">
+		</div>
+		<div>
+			<input type="submit" value="upload file">
+		</div>
+	</form>
+</body>
+</html>
